@@ -1,8 +1,45 @@
+html {
+    font-size: 100%;
+}
+
+body {
+    background-color: rgb(35, 35, 35);
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h1 {
+    font-size: 4rem;
+    color: rgb(199, 251, 43);
+}
+
+button {
+    background-color: rgb(35, 35, 35);
+    color: rgb(199, 251, 43);
+    border: 2px, solid, black;
+    border-color: rgb(199, 251, 43);
+    border-radius: 5px;
+    padding: 14px 28px;
+    font-size: 28px;
+    cursor: pointer;
+
+}
+
+button:hover {
+    background-color: rgb(199, 251, 43);
+    color: rgb(35, 35, 35);
+}
+
+#header {
+    margin-bottom: 30px;
+}
+
 #grid-container {
     display: grid;
     grid-template-columns: auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto auto;
-    background-color: aqua;
+    background-color: rgb(35, 35, 35);
     padding: 10px;
+    border: 1px solid rgb(199, 251, 43);
 }
 
 .inner-div {
