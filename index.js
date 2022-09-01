@@ -18,6 +18,8 @@ btn.onclick = function () {
 
 };
 
+restart.onclick = () => location.reload();
+
 function setGrid(num) {
     let numberOfSquares = num;
     let gridSize = numberOfSquares ** 2;
