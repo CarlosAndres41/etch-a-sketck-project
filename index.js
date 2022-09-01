@@ -1,8 +1,10 @@
-let numberOfSquares = 50;
+let gridContainer = document.getElementById('grid-container');
 
+let numberOfSquares = 16;
 let gridSize = numberOfSquares ** 2;
 
-let gridContainer = document.getElementById('grid-container');
+
+
 
 for (let i = 0; i < gridSize; i++) {
     let gridDiv = document.createElement('div');
