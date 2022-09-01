@@ -9,6 +9,8 @@ btn.onclick = function () {
             break;
         default:
             setGrid(value);
+            gridContainer.style.borderColor = 'rgb(199, 251, 43)';
+            btn.hidden = true;
             break;
     };
 
