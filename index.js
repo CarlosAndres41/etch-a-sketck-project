@@ -24,6 +24,8 @@ function setGrid(num) {
         let gridDiv = document.createElement('div');
         gridDiv.classList.add('inner-div');
         gridContainer.style.gridTemplateColumns = `repeat(${numberOfSquares}, auto)`
+        gridDiv.style.height = 1000 / numberOfSquares;
+        gridDiv.style.width = 1000 / numberOfSquares;
 
         let opacity = 0.1;
         gridDiv.addEventListener('mouseover', (event) => {
