@@ -36,7 +36,6 @@ button:hover {
 
 #grid-container {
     display: grid;
-    grid-template-columns: repeat(16, auto);
     background-color: rgb(35, 35, 35);
     padding: 10px;
     border: 1px solid rgb(199, 251, 43);
