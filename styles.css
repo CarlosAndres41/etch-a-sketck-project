@@ -6,8 +6,9 @@
 }
 
 .inner-div {
-    background-color: blueviolet;
-    border: 1px solid black;
     padding: 20px;
+}
 
+.inner-div:hover {
+    background-color: azure;
 }
