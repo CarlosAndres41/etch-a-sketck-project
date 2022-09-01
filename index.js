@@ -1,6 +1,7 @@
 let gridContainer = document.getElementById('grid-container');
 
 let btn = document.querySelector('.btn');
+let restart = document.querySelector('.refreshBtn');
 btn.onclick = function () {
     let value = parseInt(prompt('Set the grid size', 'Write a number between 2 and 100'));
     switch (true) {
@@ -11,6 +12,7 @@ btn.onclick = function () {
             setGrid(value);
             gridContainer.style.borderColor = 'rgb(199, 251, 43)';
             btn.hidden = true;
+            restart.hidden = false;
             break;
     };
 

@@ -13,7 +13,8 @@ h1 {
     color: rgb(199, 251, 43);
 }
 
-.btn {
+.btn,
+.refreshBtn {
     background-color: rgb(35, 35, 35);
     color: rgb(199, 251, 43);
     border: 2px solid black;
@@ -25,7 +26,8 @@ h1 {
 
 }
 
-.btn:hover {
+.btn:hover,
+.refreshBtn:hover {
     background-color: rgb(199, 251, 43);
     color: rgb(35, 35, 35);
 }
